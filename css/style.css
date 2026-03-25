@@ -1,0 +1,59 @@
+/* body styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* center card */
+.card {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 20px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* headings */
+h2, h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* input fields */
+input.form-control {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+/* input focus effect */
+input.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* buttons */
+button {
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* button hover effect */
+button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* links */
+a {
+  text-decoration: none;
+}
+
+/* responsive spacing */
+.container {
+  margin-top: 80px;
+}
